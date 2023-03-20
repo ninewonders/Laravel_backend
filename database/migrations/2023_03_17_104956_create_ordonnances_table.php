@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('ordonnances', function (Blueprint $table) {
-            $table->increments('NUM_ORDONNANCE');
+            $table->id('NUM_ORDONNANCE');
             $table->date('DATE_ORDONNANCE');
             $table->timestamps();
         });

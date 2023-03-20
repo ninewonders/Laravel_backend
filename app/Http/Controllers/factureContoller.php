@@ -12,7 +12,7 @@ class factureContoller extends Controller
      */
     public function index()
     {
-        return facture::select('ID_FACTURE','PRIX')->get();
+        return facture::select('id','PRIX')->get();
     }
 
     /**

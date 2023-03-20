@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class facture extends Model
 {
     use HasFactory;
-    protected $fillable = ['ID_FACTURE','PRIX'];
+    protected $fillable = ['PRIX'];
 }

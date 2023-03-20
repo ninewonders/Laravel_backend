@@ -12,7 +12,7 @@ class MedicamentContoller extends Controller
      */
     public function index()
     {
-        return medicament::select('ID_MEDIC','NOM','PRESENTATION')->get();
+        return medicament::select('id','NOM','PRESENTATION')->get();
     }
 
     /**

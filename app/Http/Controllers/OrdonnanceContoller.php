@@ -12,7 +12,7 @@ class OrdonnanceContoller extends Controller
      */
     public function index()
     {
-        return ordonnance::select('NUM_ORDONNANCE','DATE_ORDONNANCE')->get();
+        return ordonnance::select('id','DATE_ORDONNANCE')->get();
     }
 
     /**

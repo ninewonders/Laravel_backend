@@ -12,7 +12,7 @@ class RendezVousContoller extends Controller
      */
     public function index()
     {
-        return rendez_vous::select('id_rdv','date_rdv','heure_rdv')->get();
+        return rendez_vous::select('id','date_rdv','heure_rdv')->get();
     }
 
     /**

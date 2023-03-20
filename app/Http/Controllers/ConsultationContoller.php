@@ -12,7 +12,7 @@ class ConsultationContoller extends Controller
      */
     public function index()
     {
-        return consultation::select('ID_CONSULT','DATE_CONSULT','TAILLE','POIDS')->get();
+        return consultation::select('id','DATE_CONSULT','TAILLE','POIDS')->get();
     }
 
     /**

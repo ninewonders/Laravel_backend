@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class certificat_medical extends Model
 {
     use HasFactory;
-    protected $fillable = ['NUM_CERTIF','NB_JRS_REPOS','DATE_REPOS'];
+    protected $fillable = ['NB_JRS_REPOS','DATE_REPOS'];
 }

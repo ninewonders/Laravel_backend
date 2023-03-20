@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('factures', function (Blueprint $table) {
-            $table->increments('ID_FACTURE');
+            $table->id('ID_FACTURE');
             $table->double('PRIX');
             $table->timestamps();
         });

@@ -12,7 +12,7 @@ class CertificatMedicalContoller extends Controller
      */
     public function index()
     {
-        return certificat_medical::select('NUM_CERTIF','NB_JRS_REPOS','DATE_REPOS')->get();
+        return certificat_medical::select('id','NB_JRS_REPOS','DATE_REPOS')->get();
     }
 
     /**

@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class ordonnance extends Model
 {
     use HasFactory;
-    protected $fillable = ['NUM_ORDONNANCE','DATE_ORDONNANCE'];
+    protected $fillable = ['DATE_ORDONNANCE'];
 }

@@ -12,7 +12,7 @@ class PatientContoller extends Controller
      */
     public function index()
     {
-        return patient::select('CIN','NOM','PRENOM','GENRE','DATE_NAISSANCE')->get();
+        return patient::select('id','NOM','PRENOM','GENRE','DATE_NAISSANCE')->get();
     }
 
     /**

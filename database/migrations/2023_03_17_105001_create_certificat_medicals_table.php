@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('certificat_medicals', function (Blueprint $table) {
-            $table->increments('NUM_CERTIF');
+            $table->id('NUM_CERTIF');
             $table->integer('NB_JRS_REPOS');
             $table->date('DATE_REPOS');
             $table->timestamps();

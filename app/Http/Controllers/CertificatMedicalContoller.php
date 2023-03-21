@@ -33,10 +33,10 @@ class CertificatMedicalContoller extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Request $request)
+    public function show(certificat_medical $certificat_medical)
     {
         return response()->json([
-            'request' => $request
+            'certificat_medical' => $certificat_medical
         ]);
     }
 
